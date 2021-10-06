@@ -1,0 +1,8 @@
+/changelog.sh
+
+/*.lnk
+/Assets
+*.user
+
+/raw/Houdini/backup
+/raw/SubstanceDesigner/.autosave
