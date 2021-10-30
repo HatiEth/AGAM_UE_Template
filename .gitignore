@@ -1,8 +1,13 @@
 /changelog.sh
 
 /*.lnk
-/Assets
 *.user
 
-/raw/Houdini/backup
-/raw/SubstanceDesigner/.autosave
+/Assets/Houdini/backup
+/Assets/SubstanceDesigner/.autosave
+/Assets/**/Developer/
+
+Hunters/Config/DefaultEditorPerProjectUserSettings.ini
+*.blend1
+
+

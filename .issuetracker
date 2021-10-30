@@ -1,0 +1,11 @@
+# Integration with Issue Tracker
+#
+# (note that '\' need to be escaped).
+
+[issuetracker "Codecks Rule"]
+  regex = "\\$(\\w+)"
+  url = "https://battyrabbit.codecks.io/card/$1"
+
+[issuetracker "GitLab Rule"]
+  regex = "#(\\d+)"
+  url = "https://gitlab.com/battyrabbit/gj-birkenfeld/issues/$1"
