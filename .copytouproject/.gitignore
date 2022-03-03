@@ -11,6 +11,9 @@
 
 /Config/DefaultSemver.ini
 
+# Editor Personal Config
+Config/DefaultEditorPerProjectUserSettings.ini
+
 # VSCode
 
 *.code-workspace
@@ -136,4 +139,3 @@ Build/**/*.PackageVersionCounter
 ## Local overwrites of Build Pipeline
 
 /build-config.local.js
-

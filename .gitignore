@@ -3,11 +3,22 @@
 /*.lnk
 *.user
 
+SubstanceDesigner/.autosave
+
 /Assets/Houdini/backup
 /Assets/SubstanceDesigner/.autosave
 /Assets/**/Developer/
 
-Hunters/Config/DefaultEditorPerProjectUserSettings.ini
+
 *.blend1
 
+# Ignore everything in Exports
+/Assets/Exports/*
+# Ignore Houdini Cache
+/Assets/**/.cache/*
 
+/Local
+/Temp
+
+# But keep the .gitkeep files from Exports or other folders to push structure
+!/**/.gitkeep
