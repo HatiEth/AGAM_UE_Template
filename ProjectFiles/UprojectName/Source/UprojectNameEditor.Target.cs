@@ -1,15 +1,15 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright(C) Sebastian Krause. All Rights Reserved.
 
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class DeepBelowEditorTarget : TargetRules
+public class UprojectNameEditorTarget : TargetRules
 {
-	public DeepBelowEditorTarget(TargetInfo Target) : base(Target)
+	public UprojectNameEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
-		ExtraModuleNames.AddRange( new string[] { "DeepBelow", "GameplayUtilities" } );
+		ExtraModuleNames.AddRange( new string[] { "UprojectName" } );
 	}
 }

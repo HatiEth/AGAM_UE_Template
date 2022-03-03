@@ -1,10 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright(C) Sebastian Krause. All Rights Reserved.
 
 using UnrealBuildTool;
 
-public class DeepBelow : ModuleRules
+public class UprojectName : ModuleRules
 {
-	public DeepBelow(ReadOnlyTargetRules Target) : base(Target)
+	public UprojectName(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

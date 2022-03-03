@@ -1,6 +1,6 @@
 // Copyright(C) Sebastian Krause. All Rights Reserved.
 
-#include "DeepBelow.h"
+#include "UprojectName.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, DeepBelow, "DeepBelow" );
+IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, UprojectName, "UprojectName" );
