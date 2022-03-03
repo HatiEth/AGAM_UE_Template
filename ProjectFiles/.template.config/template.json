@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Sebastian Krause",
+  "name": "Unreal Engine Project",
+  "description": "A template to create an unreal engine project including structure.",
+  "identity": "UnrealSourceProject.1.0",
+  "shortName": "ueproject",
+  "tags": {
+    "language": "C++",
+    "type": "project"
+  },
+  "sourceName": "UprojectName",
+  "symbols": {
+  }
+}
