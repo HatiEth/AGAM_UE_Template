@@ -3,6 +3,13 @@
 	"EngineAssociation": "UnrealEngine5-AGAM",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "UprojectName",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
