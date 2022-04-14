@@ -1,58 +1,73 @@
-*.abc filter=lfs diff=lfs merge=lfs -text 
-*.aep filter=lfs diff=lfs merge=lfs -text 
-*.afdesign filter=lfs diff=lfs merge=lfs -text 
-*.afphoto filter=lfs diff=lfs merge=lfs -text 
-*.ai filter=lfs diff=lfs merge=lfs -text 
-*.aif filter=lfs diff=lfs merge=lfs -text 
-*.avi filter=lfs diff=lfs merge=lfs -text 
-*.bgeo filter=lfs diff=lfs merge=lfs -text 
-*.bin filter=lfs diff=lfs merge=lfs -text 
-*.bin.fbx filter=lfs diff=lfs merge=lfs -text 
-*.blend filter=lfs diff=lfs merge=lfs -text 
-*.fbx filter=lfs diff=lfs merge=lfs -text 
-*.geo filter=lfs diff=lfs merge=lfs -text 
-*.gi filter=lfs diff=lfs merge=lfs -text 
-*.gi2 filter=lfs diff=lfs merge=lfs -text 
-*.glb filter=lfs diff=lfs merge=lfs -text 
-*.gltf filter=lfs diff=lfs merge=lfs -text 
-*.hdr filter=lfs diff=lfs merge=lfs -text 
-*.hip filter=lfs diff=lfs merge=lfs -text 
-*.hiplc filter=lfs diff=lfs merge=lfs -text 
-*.hda filter=lfs diff=lfs merge=lfs -text 
-*.hdalc filter=lfs diff=lfs merge=lfs -text 
-*.hipnc filter=lfs diff=lfs merge=lfs -text 
-*.jpeg filter=lfs diff=lfs merge=lfs -text 
-*.jpg filter=lfs diff=lfs merge=lfs -text 
-*.kra filter=lfs diff=lfs merge=lfs -text 
-*.ma filter=lfs diff=lfs merge=lfs -text 
-*.max filter=lfs diff=lfs merge=lfs -text 
-*.mb filter=lfs diff=lfs merge=lfs -text 
-*.mov filter=lfs diff=lfs merge=lfs -text 
-*.mp3 filter=lfs diff=lfs merge=lfs -text 
-*.mp4 filter=lfs diff=lfs merge=lfs -text 
-*.mpeg filter=lfs diff=lfs merge=lfs -text 
-*.mpg filter=lfs diff=lfs merge=lfs -text 
-*.obj filter=lfs diff=lfs merge=lfs -text 
-*.profraw filter=lfs diff=lfs merge=lfs -text 
-*.prproj filter=lfs diff=lfs merge=lfs -text 
-*.psb filter=lfs diff=lfs merge=lfs -text 
-*.psd filter=lfs diff=lfs merge=lfs -text 
-*.stl filter=lfs diff=lfs merge=lfs -text 
-*.tga filter=lfs diff=lfs merge=lfs -text 
-*.tif filter=lfs diff=lfs merge=lfs -text 
-*.tiff filter=lfs diff=lfs merge=lfs -text 
-*.uasset filter=lfs diff=lfs merge=lfs -text  
-*.udk filter=lfs diff=lfs merge=lfs -text 
-*.umap filter=lfs diff=lfs merge=lfs -text 
-*.upk filter=lfs diff=lfs merge=lfs -text 
-*.usd filter=lfs diff=lfs merge=lfs -text 
-*.usdc filter=lfs diff=lfs merge=lfs -text 
-*.usdz filter=lfs diff=lfs merge=lfs -text 
-*.vdb filter=lfs diff=lfs merge=lfs -text 
-*.wav filter=lfs diff=lfs merge=lfs -text 
-*.xls filter=lfs diff=lfs merge=lfs -text 
-*.xlsx filter=lfs diff=lfs merge=lfs -text 
-*.csv encoding=UTF-8 
-*.h   encoding=UTF-8
-*.cpp encoding=UTF-8
-*.ini encoding=UTF-8 
+[attr]lock filter=lfs diff=lfs merge=binary -text lockable
+[attr]lfs filter=lfs diff=lfs merge=binary -text
+[attr]source encoding=UTF-8
+
+# Unreal files
+*.uasset lock  
+*.umap lock 
+
+*.udk lfs
+*.upk lfs
+
+*.locres lfs
+*.locmeta lfs
+
+# Source or Text files
+*.csv source
+*.h   source
+*.cpp source
+*.ini source
+
+# Assets
+*.abc lfs 
+*.aep lfs 
+*.afdesign lfs 
+*.afphoto lfs 
+*.ai lfs 
+*.aif lfs 
+*.avi lfs 
+*.bgeo lfs 
+*.bin lfs 
+*.bin.fbx lfs 
+*.blend lfs 
+*.fbx lfs 
+*.geo lfs 
+*.gi lfs 
+*.gi2 lfs 
+*.glb lfs 
+*.gltf lfs 
+*.hdr lfs 
+*.hip lfs 
+*.hiplc lfs 
+*.hda lfs 
+*.hdalc lfs 
+*.hipnc lfs 
+*.jpeg lfs 
+*.jpg lfs 
+*.kra lfs 
+*.ma lfs 
+*.max lfs 
+*.mb lfs 
+*.mov lfs 
+*.mp3 lfs 
+*.mp4 lfs 
+*.mpeg lfs 
+*.mpg lfs 
+*.obj lfs 
+*.profraw lfs 
+*.prproj lfs 
+*.psb lfs 
+*.psd lfs 
+*.stl lfs 
+*.tga lfs 
+*.tif lfs 
+*.tiff lfs 
+*.usd lfs 
+*.usdc lfs 
+*.usdz lfs 
+*.vdb lfs 
+*.wav lfs 
+*.xls lfs 
+*.xlsx lfs 
+
+
